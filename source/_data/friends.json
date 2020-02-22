@@ -1,0 +1,45 @@
+﻿[
+    {
+	    "avatar": "/medias/avatars/zhaohaikun.png",
+	    "name": "赵海鲲的博客",
+	    "introduction": "巨佬Orz",
+	    "url": "http://www.zhaohaikun.cn",
+	    "title": "前去膜拜"
+    },{
+        "name": "MasterOJ",
+        "url": "http://www.masteroj.cn",
+        "title": "访问OJ",
+        "introduction": "一款受人欢迎的OnlineJudge",
+        "avatar": "/medias/avatars/masteroj.png"
+    },{
+        "name": "洛谷",
+        "url": "https://www.luogu.com.cn",
+        "title": "访问OJ",
+        "introduction": "计算机教育新生态",
+        "avatar": "https://www.lgstatic.com/thumbnail_300x300/i/image2/M00/47/1F/CgoB5lrX_GyAOdKOAAAQeF8UfiU999.jpg"
+    },{
+        "name": "LightningUZ",
+        "url": "https://lightninguz2.github.io",
+        "title": "访问主页",
+        "introduction": "苏州蒟蒻",
+        "avatar": "/medias/avatars/lightninguz2.jpg"
+    },{
+        "name": "AC加油站",
+        "url": "https://www.luogu.com.cn/team/16683",
+        "title": "加入团队",
+        "introduction": "蒟蒻在洛谷的优秀团队",
+        "avatar": "/medias/avatars/ac.png"
+    },{
+        "name": "OI加油站",
+        "url": "https://www.luogu.com.cn/team/16725",
+        "title": "加入团队",
+        "introduction": "蒟蒻在洛谷的优秀团队",
+        "avatar": "/medias/avatars/oi.png"
+    },{
+        "name": "PC加油站",
+        "url": "https://www.luogu.com.cn/team/23922",
+        "title": "加入团队",
+        "introduction": "蒟蒻在洛谷的优秀团队",
+        "avatar": "/medias/avatars/pc.png"
+    }
+]
