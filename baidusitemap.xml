@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.liziheng.ac.cn/test-encryption.html</loc>
+    <lastmod>2020-02-26</lastmod>
+  </url>  <url>
     <loc>https://www.liziheng.ac.cn/solution-uva1591.html</loc>
     <lastmod>2020-02-26</lastmod>
   </url>  <url>
@@ -11,9 +14,6 @@
     <lastmod>2020-02-26</lastmod>
   </url>  <url>
     <loc>https://www.liziheng.ac.cn/solution-cf28a.html</loc>
-    <lastmod>2020-02-26</lastmod>
-  </url>  <url>
-    <loc>https://www.liziheng.ac.cn/test-encryption.html</loc>
     <lastmod>2020-02-26</lastmod>
   </url>  <url>
     <loc>https://www.liziheng.ac.cn/personal-homepage.html</loc>
