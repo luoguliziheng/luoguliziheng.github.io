@@ -136,11 +136,11 @@
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/AV" class="waves-effect waves-light">
+        <a href="/" class="waves-effect waves-light">
             
-            <i class="fa fa-music"></i>
+            <i class="fa fas fa-list"></i>
             
-            <span>视听</span>
+            <span>媒体</span>
         </a>
     </li>
     
@@ -246,14 +246,45 @@
       <li class="hide-on-med-and-down nav-item" >
 
         
-            <a href="/AV" class="waves-effect waves-light">
-              
-                <i class="fa fa-music"></i>
-              
-              <span>视听</span>
-            </a>
+              <a href="/" class="waves-effect waves-light">
+                
+                  <i class="fa fas fa-list"></i>
+                
+                <span>媒体</span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
 
-            
+            <ul class="sub-nav menus_item_child ">
+              
+                <li> 
+                  <a href="/movies" >
+                    
+                      <i class="fa fas fa-film" style="margin-top: -20px;"></i>
+                    
+                    <span>电影</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/books" >
+                    
+                      <i class="fa fas fa-book" style="margin-top: -20px;"></i>
+                    
+                    <span>书单</span>
+                  </a>
+                </li>
+              
+                <li> 
+                  <a href="/AV" >
+                    
+                      <i class="fa fas fa-music" style="margin-top: -20px;"></i>
+                    
+                    <span>视听</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
       </li>
     
       <li class="hide-on-med-and-down nav-item" >
@@ -372,11 +403,11 @@
         </li>
         
         <li>
-            <a href="/AV" class="waves-effect waves-light">
+            <a href="/" class="waves-effect waves-light">
                 
-                <i class="fa fa-fw fa-music"></i>
+                <i class="fa fa-fw fas fa-list"></i>
                 
-                视听
+                媒体
             </a>
         </li>
         
@@ -477,12 +508,43 @@
         
         <li class="m-nav-item">
                 
-                    <a href="/AV" class="waves-effect waves-light">
-                        
-                        <i class="fa fa-fw fa-music"></i>
-                        
-                        视听
+                    <a href="javascript:;">
+                            
+                            <i class="fa fa-fw fas fa-list"></i>
+                            
+                            媒体
+                            <span class="m-icon"><i class="fa fa-chevron-right"></i></span>
                     </a>
+                <ul>
+                  
+                    <li> 
+                      <a href="/movies" >
+                           
+                            <i class="fa fas fa-film" style="left: 18px; position: absolute;"></i>
+                       
+                       <span>电影</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/books" >
+                           
+                            <i class="fa fas fa-book" style="left: 18px; position: absolute;"></i>
+                       
+                       <span>书单</span>
+                      </a>
+                    </li>
+                  
+                    <li> 
+                      <a href="/AV" >
+                           
+                            <i class="fa fas fa-music" style="left: 18px; position: absolute;"></i>
+                       
+                       <span>视听</span>
+                      </a>
+                    </li>
+                   
+                </ul>
               
             </li>
         
@@ -886,10 +948,30 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     siteTime();
 </script>
 
+<script>
+    var xlm_wid='15846';
+    var xlm_url='https://www.xianliao.me/';
+</script>
+<script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
 
-
-
-
+<!-- 灯笼1 --> 
+<div class="deng-box"> 
+    <div class="deng"> 
+        <div class="xian"></div> <div class="deng-a"> 
+            <div class="deng-b"><div class="deng-t">春节</div></div> 
+        </div> 
+        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div> 
+    </div> 
+</div> 
+<!-- 灯笼2 --> 
+<div class="deng-box1"> 
+    <div class="deng"> 
+        <div class="xian"></div> <div class="deng-a"> 
+            <div class="deng-b"><div class="deng-t">快乐</div></div> 
+        </div> 
+        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div> 
+    </div> 
+</div>
 
         <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
@@ -1039,5 +1121,55 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){for(var r=0;r<c.length;r++)t=c[r],0<=(n=t.getBoundingClientRect()).bottom&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=c[r];t=o,n=function(){c=c.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}i(),e.addEventListener("scroll",function(){var t,n;t=i,n=e,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)})}(this);</script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script></body>
+        <!-- lizihengblog -->
+        <script type="text/javascript">
+         WIDGET = {FID: 'Y338aeCDNp'}
+        </script>
+        <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+       <script src="/js/cursor.js"></script>
+       <script type="text/javascript">
+               window.onload = function(){
+                   //屏蔽键盘事件
+                   document.onkeydown = function (){
+                       var e = window.event || arguments[0];
+                       //F12
+                       if(e.keyCode == 123){
+                           return false;
+                       //Ctrl+Shift+I
+                       }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                           return false;
+                       //Shift+F10
+                       }else if((e.shiftKey) && (e.keyCode == 121)){
+                           return false;
+                       //Ctrl+U
+                       }else if((e.ctrlKey) && (e.keyCode == 85)){
+                           return false;
+                       }
+                   };
+                   //屏蔽鼠标右键
+                   document.oncontextmenu = function (){
+                       return false;
+                   }
+               }
+       </script>
+    
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        $('a').each(function() {
+          const $this = $(this);
+          const href = $this.attr('href');
+          if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
+            const strs = href.split('/');
+            if (strs.length >= 3) {
+                const host = strs[2];
+                if (host !== 'null' || window.location.host) {
+                    $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
+                    if (true) {
+                        $this.attr('target', '_blank');
+                    }
+                }
+            }
+          }
+        });
+        </script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){for(var r=0;r<c.length;r++)t=c[r],0<=(n=t.getBoundingClientRect()).bottom&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=c[r];t=o,n=function(){c=c.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}i(),e.addEventListener("scroll",function(){var t,n;t=i,n=e,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)})}(this);</script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script></body>
 </html>
