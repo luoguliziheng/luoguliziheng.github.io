@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.liziheng.ac.cn/friends/index.html</loc>
+    
+    <lastmod>2020-02-26T10:43:11.683Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.liziheng.ac.cn/contact/index.html</loc>
+    
+    <lastmod>2020-02-26T10:40:26.375Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.liziheng.ac.cn/test-encryption.html</loc>
     
     <lastmod>2020-02-26T07:51:34.026Z</lastmod>
@@ -40,20 +54,6 @@
     <loc>https://www.liziheng.ac.cn/galleries/index.html</loc>
     
     <lastmod>2020-02-26T04:06:43.671Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.liziheng.ac.cn/friends/index.html</loc>
-    
-    <lastmod>2020-02-26T04:06:43.668Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.liziheng.ac.cn/contact/index.html</loc>
-    
-    <lastmod>2020-02-26T04:06:43.667Z</lastmod>
     
   </url>
   
