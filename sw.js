@@ -26,9 +26,9 @@ var precacheUrls = [];
 
   precacheUrls.push('/blog-open-source.html');
 
-  precacheUrls.push('/oi-pc-philosophy-2006oier-announcement.html');
-
   precacheUrls.push('/love-helps-unite-to-fight-against-epidemic-disease.html');
+
+  precacheUrls.push('/oi-pc-philosophy-2006oier-announcement.html');
 
   precacheUrls.push('/personal-homepage.html');
 
