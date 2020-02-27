@@ -1799,23 +1799,26 @@
 </script>
 <script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
 
-<!-- 灯笼1 --> 
-<div class="deng-box"> 
-    <div class="deng"> 
-        <div class="xian"></div> <div class="deng-a"> 
-            <div class="deng-b"><div class="deng-t">春节</div></div> 
-        </div> 
-        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div> 
-    </div> 
-</div> 
-<!-- 灯笼2 --> 
-<div class="deng-box1"> 
-    <div class="deng"> 
-        <div class="xian"></div> <div class="deng-a"> 
-            <div class="deng-b"><div class="deng-t">快乐</div></div> 
-        </div> 
-        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div> 
-    </div> 
+<!-- 灯笼1 -->
+<div class="deng-box">
+    <div class="deng">
+        <div class="xian"></div>
+        <div class="deng-a">
+            <div class="deng-b"><div class="deng-t">春节</div></div>
+        </div>
+        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
+    </div>
+</div>
+ 
+<!-- 灯笼2 -->
+<div class="deng-box1">
+    <div class="deng">
+        <div class="xian"></div>
+        <div class="deng-a">
+            <div class="deng-b"><div class="deng-t">快乐</div></div>
+        </div>
+        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
+    </div>
 </div>
 
         <!-- 搜索遮罩框 -->
@@ -1997,8 +2000,27 @@ $(function () {
                    }
                }
        </script>
+       <!-- 一言API -->
+       <!-- 现代写法，推荐 -->
+       <!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+       <script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+       <!--End-->
+       <script>
+         fetch('https://v1.hitokoto.cn')
+           .then(function (res){
+             return res.json();
+           })
+           .then(function (data) {
+             var hitokoto = document.getElementById('hitokoto');
+             hitokoto.innerText = data.hitokoto + '——【' + data.from + '】';
+           })
+           .catch(function (err) {
+             console.error(err);
+           })
+       </script>
     <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1582722631069')
+  navigator.serviceWorker.register('/sw.js?t=1582768798559')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
