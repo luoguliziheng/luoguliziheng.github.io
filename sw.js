@@ -24,23 +24,23 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
-  precacheUrls.push('/blog-open-source.html');
-
   precacheUrls.push('/love-helps-unite-to-fight-against-epidemic-disease.html');
 
-  precacheUrls.push('/oi-pc-philosophy-2006oier-announcement.html');
+  precacheUrls.push('/test-encryption.html');
 
   precacheUrls.push('/personal-homepage.html');
 
-  precacheUrls.push('/test-encryption.html');
+  precacheUrls.push('/blog-open-source.html');
+
+  precacheUrls.push('/oi-pc-philosophy-2006oier-announcement.html');
 
   precacheUrls.push('/solution-cf28a.html');
 
   precacheUrls.push('/solution-p5462.html');
 
-  precacheUrls.push('/solution-sp2881.html');
-
   precacheUrls.push('/solution-uva1591.html');
+
+  precacheUrls.push('/solution-sp2881.html');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":30};
