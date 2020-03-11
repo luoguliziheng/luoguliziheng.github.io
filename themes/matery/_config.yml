@@ -262,8 +262,8 @@ gitalk:
   owner: luoguliziheng
   repo: luoguliziheng.github.io
   oauth:
-    clientId: 28f0e55b0f00fb429fcf
-    clientSecret: 4389732b727bfc7d85f064decae8fd9b3350feb0
+    clientId: xxxxxxxxxx
+    clientSecret: xxxxxxxxxx
   admin:
     - luoguliziheng
 
@@ -294,8 +294,8 @@ livere:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: true
-  appId: 0FAD5s1pn3mHf1e5Gu0owqjs-gzGzoHsz
-  appKey: Ci3kzPPWfDBJbUdTwycCujRB
+  appId: xxxxxxxxxxx
+  appKey: xxxxxxxxxxx
   notify: true
   verify: true
   visitor: true
