@@ -1990,7 +1990,7 @@ FJ的奶牛掉进垃圾陷阱，一颗颗导弹被系统拦截；<span aria-hidd
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">6k</span> 字
+                <span class="white-color">9.6k</span> 字
             
 
             
@@ -2080,18 +2080,18 @@ FJ的奶牛掉进垃圾陷阱，一颗颗导弹被系统拦截；<span aria-hidd
     siteTime();
 </script>
 
-<script>
+<!-- <script>
     var xlm_wid='15846';
     var xlm_url='https://www.xianliao.me/';
 </script>
-<script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
+<script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>*/ -->
 
 <!-- 灯笼1 -->
 <div class="deng-box">
     <div class="deng">
         <div class="xian"></div>
         <div class="deng-a">
-            <div class="deng-b"><div class="deng-t">春节</div></div>
+            <div class="deng-b"><div class="deng-t">劳动</div></div>
         </div>
         <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
     </div>
@@ -2257,10 +2257,19 @@ $(function () {
         
 
         <!-- lizihengblog -->
-        <script type="text/javascript">
-         WIDGET = {FID: 'Y338aeCDNp'}
-        </script>
-        <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+        <!-- 天气接口  洪卫 shw2018 add 2019.09.09 -->
+<script type="text/javascript">
+    WIDGET = {FID: '1tFpFZ5Mtj'}
+  </script>
+  <!-- <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> -->
+  
+  <script type="text/javascript">
+    //只在桌面版网页启用特效
+    var windowWidth = $(window).width();
+    if (windowWidth > 768) {
+        document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
+    }
+    </script>
        <script src="/js/cursor.js"></script>
        <script type="text/javascript">
                window.onload = function(){
@@ -2307,7 +2316,7 @@ $(function () {
            })
        </script>
     <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1587816070481')
+  navigator.serviceWorker.register('/sw.js?t=1587820778901')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }

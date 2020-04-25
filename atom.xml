@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.liziheng.ac.cn/"/>
-  <updated>2020-02-26T04:06:44.000Z</updated>
+  <updated>2020-04-25T13:15:48.447Z</updated>
   <id>https://www.liziheng.ac.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>“众志成城，携手共进”四大团队合作协议章程</title>
-    <link href="https://www.liziheng.ac.cn/oi-pc-philosophy-2006oier-announcement.html"/>
-    <id>https://www.liziheng.ac.cn/oi-pc-philosophy-2006oier-announcement.html</id>
-    <published>2020-02-13T04:59:03.000Z</published>
-    <updated>2020-02-26T04:06:44.000Z</updated>
+    <title>题解 CF132E 【Bits of merry old England】</title>
+    <link href="https://www.liziheng.ac.cn/solution-cf132e.html"/>
+    <id>https://www.liziheng.ac.cn/solution-cf132e.html</id>
+    <published>2020-04-25T13:08:33.000Z</published>
+    <updated>2020-04-25T13:15:48.447Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,64 @@
       
         
         
-          &lt;h1 id=&quot;“众志成城，携手共进”四大团队合作协议章程&quot;&gt;&lt;a href=&quot;#“众志成城，携手共进”四大团队合作协议章程&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;题意：&quot;&gt;&lt;a href=&quot;#题意：&quot; class=&quot;headerlink&quot; title=&quot;题意：&quot;&gt;&lt;/a&gt;题意：&lt;/h1&gt;&lt;p&gt;让你输出长度为n的某个序列，然后给你m个变量。&lt;/p&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="题解" scheme="https://www.liziheng.ac.cn/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="洛谷题解" scheme="https://www.liziheng.ac.cn/tags/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="费用流" scheme="https://www.liziheng.ac.cn/tags/%E8%B4%B9%E7%94%A8%E6%B5%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 UVA571 【Jugs】</title>
+    <link href="https://www.liziheng.ac.cn/solution-uva571.html"/>
+    <id>https://www.liziheng.ac.cn/solution-uva571.html</id>
+    <published>2020-04-25T13:02:26.000Z</published>
+    <updated>2020-04-25T13:18:11.528Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h1&gt;&lt;p&gt;这道题想了好久，读了好几遍终于找到了突破口，于是想写篇题解记录一下&lt;/p&gt;
+&lt;h1 id=&quot;正文：&quot;&gt;&lt;a href=&quot;#正文：&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="题解" scheme="https://www.liziheng.ac.cn/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="洛谷题解" scheme="https://www.liziheng.ac.cn/tags/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【2020年4月25日更新】“众志成城，携手共进”四大团队合作协议章程</title>
+    <link href="https://www.liziheng.ac.cn/op2006z.html"/>
+    <id>https://www.liziheng.ac.cn/op2006z.html</id>
+    <published>2020-02-13T04:59:03.000Z</published>
+    <updated>2020-04-25T12:28:06.669Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;第一条-总纲&quot;&gt;&lt;a href=&quot;#第一条-总纲&quot; class=&quot;headerlink&quot; title=&quot;第一条 总纲&quot;&gt;&lt;/a&gt;第一条 总纲&lt;/h1&gt;&lt;p&gt;为了增强信息学竞赛选手的合作意识，树立良好的学生合作竞争风气，特制定本章程。&lt;/p&gt;
+&lt;h1
         
       
     
