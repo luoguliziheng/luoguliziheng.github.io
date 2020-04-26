@@ -28,21 +28,21 @@ var precacheUrls = [];
 
   precacheUrls.push('/love-helps-unite-to-fight-against-epidemic-disease.html');
 
+  precacheUrls.push('/op2006z.html');
+
   precacheUrls.push('/personal-homepage.html');
 
   precacheUrls.push('/test-encryption.html');
 
-  precacheUrls.push('/op2006z.html');
-
-  precacheUrls.push('/solution-sp2881.html');
-
-  precacheUrls.push('/solution-uva1591.html');
+  precacheUrls.push('/solution-cf132e.html');
 
   precacheUrls.push('/solution-cf28a.html');
 
   precacheUrls.push('/solution-p5462.html');
 
-  precacheUrls.push('/solution-cf132e.html');
+  precacheUrls.push('/solution-sp2881.html');
+
+  precacheUrls.push('/solution-uva1591.html');
 
   precacheUrls.push('/solution-uva571.html');
 
