@@ -30,9 +30,9 @@ var precacheUrls = [];
 
   precacheUrls.push('/personal-homepage.html');
 
-  precacheUrls.push('/op2006z.html');
-
   precacheUrls.push('/test-encryption.html');
+
+  precacheUrls.push('/op2006z.html');
 
   precacheUrls.push('/solution-cf132e.html');
 
