@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>solution-cf23c</title>
+      <link href="/solution-cf23c.html"/>
+      <url>/solution-cf23c.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这个题目还是很不错的，我通过这个题目学会了一种解决此类问题的思路，我本来以为是必须要用dp来解决的，但</p><p>仔细想想其实还是不必这样的啊。</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>这个题目的意思是说求出$n$个箱子，使这$n$个箱子的橙子的和与苹果的和可以大于</p><p>苹果数与橙子数的一半。所以应该先进行排序，假如$n=3$,那么就有$5$个，</p><p>$x_1$ $y_1$$(1)$</p><p>$x_2$ $y_2(1)$</p><p>$x_3$ $y_3(2)$</p><p>$x_4$ $y_4(2)$</p><p>$x_5$ $y_5$  我们要在$y_1$与$y_2$之间挑出比较大的那个数，$y_3$与$y_4$之间挑出比较大的那个数，然后挑最后一个，这样加起来</p><p>我们就可以绝对可以保证$x$是足够到一半了，同时我们也调走了最多的y的一半。</p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>```cpp</p><p>#include&lt;bits/stdc++.h&gt;<br>using namespace std;<br>struct node<br>{<br>    int a;<br>    int b;<br>    int index;</p><p>}ua[2*100000+5];<br>int cmd(node x,node y)<br>{<br>    return x.a&lt;y.a;<br>}<br>int main()<br>{</p><pre><code>int i,j,k;int T;int n;scanf("%d",&amp;T);while(T--){    scanf("%d",&amp;n);    k=2*n-1;    for(i=1;i&lt;=k;i++)    {        scanf("%d%d",&amp;ua[i].a,&amp;ua[i].b);        ua[i].index=i;    }    sort(ua+1,ua+1+k,cmd);    printf("YES\n");    for(i=2;i&lt;=k-1;i=i+2)    {        if(ua[i].b&gt;ua[i-1].b)        {            printf("%d ",ua[i].index);        }        else        {            printf("%d ",ua[i-1].index);        }    }    printf("%d\n",ua[k].index);}return 0;</code></pre><p>}</p><h1 id="后记："><a href="#后记：" class="headerlink" title="后记："></a>后记：</h1><p><strong>求点赞和评论QAQ</strong></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> dp </tag>
+            
+            <tag> 洛谷题解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>题解 CF132E 【Bits of merry old England】</title>
       <link href="/solution-cf132e.html"/>
       <url>/solution-cf132e.html</url>
