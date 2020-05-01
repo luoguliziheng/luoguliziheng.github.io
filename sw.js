@@ -42,9 +42,9 @@ var precacheUrls = [];
 
   precacheUrls.push('/solution-p5462.html');
 
-  precacheUrls.push('/solution-sp1676.html');
-
   precacheUrls.push('/solution-sp2881.html');
+
+  precacheUrls.push('/solution-sp1676.html');
 
   precacheUrls.push('/solution-uva1591.html');
 
