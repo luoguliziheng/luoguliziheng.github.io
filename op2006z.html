@@ -2108,9 +2108,16 @@ $(function () {
         window.addEventListener('load',endLoading);
       </script>
       <script src="dist/sweetalert.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">   
+      <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+        <script>
+                swal({
+                    title: "标题",
+                    text: "这里是自定义文本",
+                    type: "success"
+            });
+        </script>
     <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1588578500231')
+  navigator.serviceWorker.register('/sw.js?t=1588578993945')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }

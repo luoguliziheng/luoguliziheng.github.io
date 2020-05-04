@@ -1009,7 +1009,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"团队文章","value":1},{"name":"软件安装与配置","value":1},{"name":"抗击疫请","value":1},{"name":"测试","value":1},{"name":"题解","value":7},{"name":"个人主页","value":1},{"name":"洛谷题解","value":1}],
+                data: [{"name":"抗击疫请","value":1},{"name":"软件安装与配置","value":1},{"name":"团队文章","value":1},{"name":"个人主页","value":1},{"name":"测试","value":1},{"name":"题解","value":7},{"name":"洛谷题解","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -1033,7 +1033,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["洛谷题解","团队文章","Hexo","Github","博客","抗击疫情","测试","费用流","dp","个人主页"]
+                data: ["洛谷题解","抗击疫情","Hexo","Github","博客","团队文章","个人主页","测试","费用流","dp"]
             }
         ],
         yAxis: [
@@ -1215,8 +1215,8 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/%E5%9B%A2%E9%98%9F%E6%96%87%E7%AB%A0/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">团队文章</span>
+            <a href="/tags/%E6%8A%97%E5%87%BB%E7%96%AB%E6%83%85/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">抗击疫情</span>
             </a>
             
             
@@ -1239,8 +1239,14 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             
             
-            <a href="/tags/%E6%8A%97%E5%87%BB%E7%96%AB%E6%83%85/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">抗击疫情</span>
+            <a href="/tags/%E5%9B%A2%E9%98%9F%E6%96%87%E7%AB%A0/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">团队文章</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">个人主页</span>
             </a>
             
             
@@ -1265,12 +1271,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             <a href="/tags/dp/" target="_blank">
                 <span class="chip center-align waves-effect waves-light chip-default">dp</span>
-            </a>
-            
-            
-            
-            <a href="/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">个人主页</span>
             </a>
             
             
@@ -1674,9 +1674,16 @@ $(function () {
         window.addEventListener('load',endLoading);
       </script>
       <script src="dist/sweetalert.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">   
+      <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+        <script>
+                swal({
+                    title: "标题",
+                    text: "这里是自定义文本",
+                    type: "success"
+            });
+        </script>
     <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1588578500231')
+  navigator.serviceWorker.register('/sw.js?t=1588578993945')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
