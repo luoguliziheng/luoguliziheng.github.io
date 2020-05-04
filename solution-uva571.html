@@ -84,6 +84,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/loading.min.css">
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="525ff09d-bbdb-437a-a78f-7307137ae86a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    swal({
+        title: "欢迎来到李梓恒的博客",
+        text: "祝你阅读愉快！",
+        imageUrl: "/medias/logo.png",
+        timer: 2000,
+        showConfirmButton: false
+      });
 <meta name="generator" content="Hexo 4.1.1"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -2040,8 +2047,10 @@ $(function () {
         }
         window.addEventListener('load',endLoading);
       </script>
+      <script src="dist/sweetalert.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">      
     <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1588343615442')
+  navigator.serviceWorker.register('/sw.js?t=1588577583071')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }

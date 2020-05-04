@@ -81,6 +81,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/loading.min.css">
     <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="525ff09d-bbdb-437a-a78f-7307137ae86a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    swal({
+        title: "欢迎来到李梓恒的博客",
+        text: "祝你阅读愉快！",
+        imageUrl: "/medias/logo.png",
+        timer: 2000,
+        showConfirmButton: false
+      });
 <meta name="generator" content="Hexo 4.1.1"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -1009,7 +1016,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"软件安装与配置","value":1},{"name":"抗击疫请","value":1},{"name":"团队文章","value":1},{"name":"个人主页","value":1},{"name":"测试","value":1},{"name":"题解","value":7},{"name":"洛谷题解","value":1}],
+                data: [{"name":"软件安装与配置","value":1},{"name":"抗击疫请","value":1},{"name":"个人主页","value":1},{"name":"测试","value":1},{"name":"题解","value":7},{"name":"团队文章","value":1},{"name":"洛谷题解","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -1033,7 +1040,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["洛谷题解","Hexo","Github","博客","抗击疫情","团队文章","个人主页","测试","费用流","dp"]
+                data: ["洛谷题解","Hexo","Github","博客","抗击疫情","个人主页","测试","dp","团队文章","费用流"]
             }
         ],
         yAxis: [
@@ -1239,12 +1246,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             
             
-            <a href="/tags/%E5%9B%A2%E9%98%9F%E6%96%87%E7%AB%A0/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">团队文章</span>
-            </a>
-            
-            
-            
             <a href="/tags/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/" target="_blank">
                 <span class="chip center-align waves-effect waves-light chip-default">个人主页</span>
             </a>
@@ -1263,14 +1264,20 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             
             
-            <a href="/tags/%E8%B4%B9%E7%94%A8%E6%B5%81/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">费用流</span>
+            <a href="/tags/dp/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">dp</span>
             </a>
             
             
             
-            <a href="/tags/dp/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">dp</span>
+            <a href="/tags/%E5%9B%A2%E9%98%9F%E6%96%87%E7%AB%A0/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">团队文章</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E8%B4%B9%E7%94%A8%E6%B5%81/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">费用流</span>
             </a>
             
             
@@ -1673,8 +1680,10 @@ $(function () {
         }
         window.addEventListener('load',endLoading);
       </script>
+      <script src="dist/sweetalert.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">      
     <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1588343615442')
+  navigator.serviceWorker.register('/sw.js?t=1588577583071')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
