@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.liziheng.ac.cn/"/>
-  <updated>2020-05-01T13:24:02.746Z</updated>
+  <updated>2020-05-04T12:29:44.278Z</updated>
   <id>https://www.liziheng.ac.cn/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解 P1173 【[NOI2016]网格】</title>
+    <link href="https://www.liziheng.ac.cn/solution-p1173.html"/>
+    <id>https://www.liziheng.ac.cn/solution-p1173.html</id>
+    <published>2020-05-04T12:24:15.000Z</published>
+    <updated>2020-05-04T12:29:44.278Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;这个码量绝对是业界大毒瘤……&lt;/p&gt;
+&lt;p&gt;$300$行，$6.5$k，烦的要死……&lt;/p&gt;
+&lt;h1 id=&quot;正文&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="洛谷题解" scheme="https://www.liziheng.ac.cn/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.liziheng.ac.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="tarjan" scheme="https://www.liziheng.ac.cn/tags/tarjan/"/>
+    
+      <category term="连通图" scheme="https://www.liziheng.ac.cn/tags/%E8%BF%9E%E9%80%9A%E5%9B%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>题解 SP1676 【GEN - Text Generator】</title>
@@ -69,9 +101,9 @@
       <category term="题解" scheme="https://www.liziheng.ac.cn/categories/%E9%A2%98%E8%A7%A3/"/>
     
     
-      <category term="dp" scheme="https://www.liziheng.ac.cn/tags/dp/"/>
-    
       <category term="洛谷题解" scheme="https://www.liziheng.ac.cn/tags/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="dp" scheme="https://www.liziheng.ac.cn/tags/dp/"/>
     
   </entry>
   
