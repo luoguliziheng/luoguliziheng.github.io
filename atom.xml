@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.liziheng.ac.cn/"/>
-  <updated>2020-05-04T12:30:56.169Z</updated>
+  <updated>2020-05-08T10:21:39.448Z</updated>
   <id>https://www.liziheng.ac.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>T1</title>
+    <link href="https://www.liziheng.ac.cn/t1.html"/>
+    <id>https://www.liziheng.ac.cn/t1.html</id>
+    <published>2020-05-08T10:18:12.000Z</published>
+    <updated>2020-05-08T10:21:39.448Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;731611U&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Good luck!&lt;/strong&gt;&lt;/p&gt;
+&lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+         
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>题解 P1173 【[NOI2016]网格】</title>

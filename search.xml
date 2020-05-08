@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>T1</title>
+      <link href="/t1.html"/>
+      <url>/t1.html</url>
+      
+        <content type="html"><![CDATA[<p><code>731611U</code></p><p><strong>Good luck!</strong></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>题解 P1173 【[NOI2016]网格】</title>
       <link href="/solution-p1173.html"/>
       <url>/solution-p1173.html</url>
