@@ -30,23 +30,23 @@ var precacheUrls = [];
 
   precacheUrls.push('/personal-homepage.html');
 
+  precacheUrls.push('/op2006z.html');
+
+  precacheUrls.push('/programming-challenges.html');
+
   precacheUrls.push('/t1.html');
 
   precacheUrls.push('/test-encryption.html');
 
-  precacheUrls.push('/op2006z.html');
-
   precacheUrls.push('/solution-cf28a.html');
+
+  precacheUrls.push('/solution-cf132e.html');
 
   precacheUrls.push('/solution-cf23c.html');
 
   precacheUrls.push('/solution-p5462.html');
 
-  precacheUrls.push('/solution-cf132e.html');
-
   precacheUrls.push('/solution-p1173.html');
-
-  precacheUrls.push('/solution-sp2881.html');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":30};

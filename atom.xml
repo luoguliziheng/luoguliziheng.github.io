@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.liziheng.ac.cn/"/>
-  <updated>2020-05-08T10:21:39.448Z</updated>
+  <updated>2020-05-11T13:01:03.082Z</updated>
   <id>https://www.liziheng.ac.cn/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>编程挑战</title>
+    <link href="https://www.liziheng.ac.cn/programming-challenges.html"/>
+    <id>https://www.liziheng.ac.cn/programming-challenges.html</id>
+    <published>2020-05-11T12:45:54.000Z</published>
+    <updated>2020-05-11T13:01:03.082Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;给大家推荐一本好书，欢迎阅读，&lt;a href=&quot;http://47.110.229.146/upload/file/20200511/20200511205842_19705.pdf&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="书籍" scheme="https://www.liziheng.ac.cn/categories/%E4%B9%A6%E7%B1%8D/"/>
+    
+    
+      <category term="编程" scheme="https://www.liziheng.ac.cn/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="c++" scheme="https://www.liziheng.ac.cn/tags/c/"/>
+    
+      <category term="书籍推荐" scheme="https://www.liziheng.ac.cn/tags/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>T1</title>
     <link href="https://www.liziheng.ac.cn/t1.html"/>
     <id>https://www.liziheng.ac.cn/t1.html</id>
     <published>2020-05-08T10:18:12.000Z</published>
-    <updated>2020-05-08T10:21:39.448Z</updated>
+    <updated>2020-05-08T10:25:08.183Z</updated>
     
     <summary type="html">
     
