@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>题解 P1756 【[NOI2009]描边】</title>
+      <link href="/solution-p1756.html"/>
+      <url>/solution-p1756.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>不得不说它是一道难题啊。弄了我$1$天才把程序写出来，结果始终只有$97pts<br>$，网上有两种说法，据BYVOID大牛说是精度不够的问题，他貌似用了$11$天把最后$3$分得到了，但是网上有人用了辛普森/纯计算/高精度实数依次做了比对，最后认为是最后一个点的数据错了。实际怎样不得而知，暂且认为我用的辛普森公式是对面积的近似计算，存在一定误差。</p><h1 id="正文："><a href="#正文：" class="headerlink" title="正文："></a>正文：</h1><h2 id="解法：辛普森公式。"><a href="#解法：辛普森公式。" class="headerlink" title="解法：辛普森公式。"></a>解法：辛普森公式。</h2><h3 id="算法思路："><a href="#算法思路：" class="headerlink" title="算法思路："></a>算法思路：</h3><p>题目的本质是去求一些长方体与圆的交面积，而这些图形放到一块后是一个不规则的图形，自然想到利用辛普森公式来求面积：</p><p>求出所有的连续区间$[a,b]$，然后计算出其对应的纵向的连续区间$f(a)$，$f(b)$，$f((a+b) \div 2)$，通过控制精度来用辛普森公式得到相对准确的区间面积，最后加上所有区间的面积就是最后解。</p><p>控制精度的方法是二分比较左右子区间与当前区间的面积差。</p><h3 id="时间复杂度："><a href="#时间复杂度：" class="headerlink" title="时间复杂度："></a>时间复杂度：</h3><p>不好估算，与精度有关，精度控制得越高解越精确，但越耗时。实现时当精度在$10^{-9}$时，前$8$个点秒过，第$9$个点$3s$左右，第$10$个点$10s$左右。当精度在$10^{-17}$时，第$10$个点跑了几分钟（但是始终无法把最后3分得到）。</p><h3 id="测试情况："><a href="#测试情况：" class="headerlink" title="测试情况："></a>测试情况：</h3><p>得到了$97pts$</p><h3 id="细节处理："><a href="#细节处理：" class="headerlink" title="细节处理："></a>细节处理：</h3><p>可以将所有点适当旋转，随机改变图形的位置，来多次测试提高精度。</p><p>需要自己推导求矩形4顶点的公式与求交点的公式。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 题解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 洛谷题解 </tag>
+            
+            <tag> 辛普森公式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>题解 P6537 【[COCI2013-2014#1] RATAR】</title>
       <link href="/solution-p6537.html"/>
       <url>/solution-p6537.html</url>
