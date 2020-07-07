@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.liziheng.ac.cn/"/>
-  <updated>2020-06-13T00:00:09.233Z</updated>
+  <updated>2020-07-07T03:13:49.036Z</updated>
   <id>https://www.liziheng.ac.cn/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>题解 AT183 【1+1</title>
+    <link href="https://www.liziheng.ac.cn/solution-at183.html"/>
+    <id>https://www.liziheng.ac.cn/solution-at183.html</id>
+    <published>2020-07-07T02:52:16.000Z</published>
+    <updated>2020-07-07T03:13:49.036Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;题目大意：&quot;&gt;&lt;a href=&quot;#题目大意：&quot; class=&quot;headerlink&quot; title=&quot;题目大意：&quot;&gt;&lt;/a&gt;题目大意：&lt;/h1&gt;&lt;p&gt;输入遵循以下格式。给出的数目都是整数。&lt;/p&gt;
+&lt;p&gt;分别表示以下规则中的要素的状态数 $n$ ，最大分割次数$
+        
+      
+    
+    </summary>
+    
+      <category term="洛谷题解" scheme="https://www.liziheng.ac.cn/categories/%E6%B4%9B%E8%B0%B7%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="题解" scheme="https://www.liziheng.ac.cn/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="DP" scheme="https://www.liziheng.ac.cn/tags/DP/"/>
+    
+      <category term="DFS" scheme="https://www.liziheng.ac.cn/tags/DFS/"/>
+    
+  </entry>
   
   <entry>
     <title>题解 P1756 【[NOI2009]描边】</title>

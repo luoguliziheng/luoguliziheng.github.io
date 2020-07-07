@@ -32,21 +32,21 @@ var precacheUrls = [];
 
   precacheUrls.push('/test-encryption.html');
 
+  precacheUrls.push('/solution-at183.html');
+
   precacheUrls.push('/op2006z.html');
 
   precacheUrls.push('/solution-cf28a.html');
 
-  precacheUrls.push('/solution-cf132e.html');
-
   precacheUrls.push('/solution-cf23c.html');
-
-  precacheUrls.push('/solution-p5462.html');
 
   precacheUrls.push('/solution-p1173.html');
 
+  precacheUrls.push('/solution-p5462.html');
+
   precacheUrls.push('/solution-p1756.html');
 
-  precacheUrls.push('/solution-uva1591.html');
+  precacheUrls.push('/solution-sp2881.html');
 
 toolbox.precache(precacheUrls);
 toolbox.options = {"networkTimeoutSeconds":30};
