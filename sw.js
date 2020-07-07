@@ -28,9 +28,9 @@ var precacheUrls = [];
 
   precacheUrls.push('/love-helps-unite-to-fight-against-epidemic-disease.html');
 
-  precacheUrls.push('/op2006z.html');
-
   precacheUrls.push('/personal-homepage.html');
+
+  precacheUrls.push('/op2006z.html');
 
   precacheUrls.push('/test-encryption.html');
 
